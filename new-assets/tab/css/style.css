@@ -1,0 +1,59 @@
+
+body, html {
+}
+.tabs input[type="radio"] {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+}
+.tabs {
+    float: none;
+    list-style: none outside none;
+    padding: 0;
+    position: relative;
+    width: 725px;
+}
+.tabs li {
+    float: left;
+}
+.tabs label {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
+    border-radius: 2px 2px 0 0;
+    color: #62788c;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto",helveti;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 20px 13px;
+    position: relative;
+    top: 3px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.tabs label:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    top: 0;
+}
+[id^="tab"]:checked + label {
+    background: none repeat scroll 0 0 #f3f3f3;
+    top: 0;
+}
+[id^="tab"]:checked ~ [id^="tab-content"] {
+    display: block;
+}
+.tab-content {
+    animation-duration: 0.5s;
+    background: none repeat scroll 0 0 #f3f3f3;
+    box-sizing: border-box;
+    color: #000000;
+    display: none;
+    font-size: 14px;
+    left: 0;
+    line-height: 24px;
+    padding: 25px 32px 69px;
+    position: absolute;
+    text-align: left;
+    top: 53px;
+    width: 100%;
+    z-index: 2;
+}

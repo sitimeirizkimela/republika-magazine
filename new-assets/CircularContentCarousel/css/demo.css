@@ -1,0 +1,52 @@
+
+@import "reset.css";
+body {
+    font-family: "PT Sans Narrow",Arial,sans-serif;
+    font-size: 12px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.clr {
+    clear: both;
+}
+h1, h5 {
+    color: #000;
+    font-family: "Rochester",sans-serif;
+    font-size: 44px;
+    margin: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+h1 span, h5 {
+    color: #60817a;
+    display: block;
+    font-size: 20px;
+}
+.header {
+    background: none repeat scroll 0 0 #000;
+    font-size: 13px;
+    height: 25px;
+    line-height: 24px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    z-index: 4;
+}
+.header a {
+    color: #ddd;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    text-align: right;
+    text-shadow: 1px 1px 1px #000;
+}
+.header a:hover {
+    color: #fff;
+}
+.header a span {
+    font-weight: bold;
+}
+.header span.right_ab {
+    position: absolute;
+    right: 4px;
+}

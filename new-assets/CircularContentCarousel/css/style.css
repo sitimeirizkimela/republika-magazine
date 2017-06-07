@@ -1,0 +1,195 @@
+
+.ca-container {
+    margin: 0 auto;
+    position: relative;
+    width: 569px;
+}
+.date-koran {
+    color: #000000;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 17px;
+    text-align: center;
+}
+.ca-wrapper {
+    height: 271px;
+    position: relative;
+}
+.ca-item {
+    float: left;
+    position: relative;
+}
+.ca-more {
+    background: none repeat scroll 0 0 #ccbda2;
+    bottom: 10px;
+    color: white;
+    font-family: "Georgia","Times New Roman",serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 4px 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #897c63;
+}
+.ca-close {
+    background: url("../images/cross.png") no-repeat scroll center center #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    height: 27px;
+    opacity: 0.7;
+    outline: medium none;
+    position: absolute;
+    right: 10px;
+    text-indent: -9000px;
+    top: 10px;
+    width: 27px;
+}
+.ca-close:hover {
+    opacity: 1;
+}
+.ca-item-main {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: absolute;
+}
+.ca-icon {
+    background: url("../images/animal1.png") no-repeat scroll center center transparent;
+    height: 189px;
+    margin: 0 auto;
+    position: relative;
+    width: 233px;
+}
+.ca-item-2 .ca-icon {
+    background-image: url("../images/animal2.png");
+}
+.ca-item-3 .ca-icon {
+    background-image: url("../images/animal3.png");
+}
+.ca-item-4 .ca-icon {
+    background-image: url("../images/animal4.png");
+}
+.ca-item-5 .ca-icon {
+    background-image: url("../images/animal5.png");
+}
+.ca-item-6 .ca-icon {
+    background-image: url("../images/animal6.png");
+}
+.ca-item-7 .ca-icon {
+    background-image: url("../images/animal7.png");
+}
+.ca-item-8 .ca-icon {
+    background-image: url("../images/animal8.png");
+}
+.ca-item h3 {
+    color: #000;
+    font-family: "Coustard",sans-serif;
+    font-size: 30px;
+    height: 85px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px #e4ebe9;
+    text-transform: uppercase;
+}
+.ca-item h4 {
+    border-left: 10px solid #b0ccc6;
+    font-family: "Georgia","Times New Roman",serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+}
+.ca-item h4 span {
+    display: block;
+    text-indent: 40px;
+}
+.ca-item h4 span.ca-quote {
+    color: #f4eee3;
+    font-size: 100px;
+    left: 0;
+    position: absolute;
+    text-indent: 0;
+    top: 20px;
+}
+.ca-content-wrapper {
+    background: none repeat scroll 0 0 #b0ccc6;
+    height: 440px;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: 5px;
+    width: 0;
+    z-index: 10000;
+}
+.ca-content {
+    overflow: hidden;
+    width: 660px;
+}
+.ca-content-text {
+    font-family: "Georgia","Times New Roman",serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.ca-content-text p {
+    padding-bottom: 5px;
+}
+.ca-content h6 {
+    border-bottom: 2px solid #99bcb4;
+    color: #60817a;
+    font-family: "Coustard",sans-serif;
+    font-size: 32px;
+    margin: 25px 20px 0 35px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px #99bcb4;
+}
+.ca-content ul {
+    height: 30px;
+    margin: 20px 35px;
+}
+.ca-content ul li {
+    float: left;
+    margin: 0 2px;
+}
+.ca-content ul li a {
+    background: none repeat scroll 0 0 #000;
+    color: #fff;
+    font-family: "Georgia","Times New Roman",serif;
+    font-size: 14px;
+    font-style: italic;
+    padding: 3px 6px;
+}
+.ca-content ul li a:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    text-shadow: none;
+}
+.ca-nav span {
+    background: url("../images/arrows.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 38px;
+    left: -14px;
+    margin-top: -20px;
+    position: absolute;
+    text-indent: -9000px;
+    top: 50%;
+    width: 25px;
+    z-index: 100;
+}
+.ca-nav span.ca-nav-next {
+    background-position: right top;
+    left: auto;
+    right: -14px;
+}
+.ca-nav span:hover {
+    opacity: 1;
+}
+.ca-item.ca-item-1 {
+    background-color: #f3f3f3;
+}
